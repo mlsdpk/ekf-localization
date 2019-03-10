@@ -4,7 +4,7 @@
 
 # Localization of mobile robot using Extended Kalman Filters
 
-In this lab, we will be applying an **EKF ROS package** to localize the robot inside a Gazebo environment. In the end, we will be able to drive the robot around in simulation and observe the **Odom** and **EKF** trajectories.
+In this lab, we will be applying an **EKF ROS package** to localize the robot inside a Gazebo environment. In the end, we will be able to drive the robot around in simulation and observe the **Odom** and **EKF** trajectories. This lab is part of the **Localization Module** of [Udacity Robotics Software Engineer Nanodegree Program](https://www.udacity.com/course/robotics-software-engineer--nd209).
 
 To run this project in your local machine, you need *ROS Kinetic* and *Gazebo Version 7+*.
 
