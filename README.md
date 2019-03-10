@@ -1,5 +1,6 @@
 [//]: # (Image References)
 [image_0]: img/Outcome.png
+[image_1]: img/rqt.png
 
 # Localization of mobile robot using Extended Kalman Filters
 
@@ -68,3 +69,5 @@ $ rm -rf ~/.config/ros.org/rqt_gui.ini
 ```
 $ rosrun rqt_multiplot rqt_multiplot
 ```
+![alt text][image_1]
+
