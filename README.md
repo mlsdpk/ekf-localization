@@ -1,8 +1,11 @@
+[//]: # (Image References)
+[image_0]: img/Outcome.png
+
 # Localization of mobile robot using Extended Kalman Filters
 
-In this lab, we will be applying an EKF ROS package to localize the robot inside a Gazebo environment. In the end, we will be able to drive the robot around in simulation and observe the Odom and EKF trajectories.
+In this lab, we will be applying an **EKF ROS package** to localize the robot inside a Gazebo environment. In the end, we will be able to drive the robot around in simulation and observe the **Odom** and **EKF** trajectories.
 
-To run this project in your local machine, you need ROS Kinetic and Gazebo Version 7+.
+To run this project in your local machine, you need *ROS Kinetic* and *Gazebo Version 7+*.
 
 ## Installation
 
@@ -49,4 +52,4 @@ Now, you should see Gazebo and rviz launching. Please note that Gazebo might tak
 
 In the terminal, use the keyboard commands(u-i-o-j-k-l-m-,-.) and drive the robot around. The red trajectory represents the *Odom* path whereas the green trajectory represents the *EKF* path.
 
-![alt text][img/Outcome.png]
+![alt text][image_0]
