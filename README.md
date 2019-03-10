@@ -53,3 +53,18 @@ Now, you should see Gazebo and rviz launching. Please note that Gazebo might tak
 In the terminal, use the keyboard commands(u-i-o-j-k-l-m-,-.) and drive the robot around. The red trajectory represents the *Odom* path whereas the green trajectory represents the *EKF* path.
 
 ![alt text][image_0]
+
+You can also use **rqt_multiplot** to visualize the unfiltered and filtered poses. **rqt_multiplot** is not installed by default in your system. You can install it as follows:
+
+```
+$ apt-get install ros-kinetic-rqt -y
+$ apt-get install ros-kinetic-rqt-multiplot -y
+$ apt-get install libqwt-dev -y
+$ rm -rf ~/.config/ros.org/rqt_gui.ini
+```
+
+#### Running the rqt_multiplot package
+
+```
+$ rosrun rqt_multiplot rqt_multiplot
+```
